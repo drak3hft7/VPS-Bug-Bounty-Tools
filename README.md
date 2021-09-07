@@ -31,4 +31,9 @@ Script that automates the installation of the main tools used for web applicatio
 
 - [SecLists](https://github.com/danielmiessler/SecLists.git)
 
+## Scanner CMS:
+
+- [Wpscan](https://github.com/wpscanteam/wpscan)
+- [Droopescan](https://github.com/droope/droopescan)
+
 
