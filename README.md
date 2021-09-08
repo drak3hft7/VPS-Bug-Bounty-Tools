@@ -2,11 +2,11 @@
 
 Script that automates the installation of the main tools used for web application penetration test and Bug Bounty.
 
-## Test 
-   <a name="Test"></a><a name="1.1"></a>
-   - **Abstract**
-    - Test 123
-    - Follow  [testing artifacts](aaa) (more Unit )
+## Usage:
+```
+cd /tmp && git clone https://github.com/drak3hft7/VPS-Bug-Bounty-Tools
+sudo ./Tools-BugBounty-installer.sh
+```
 
 # List of tools inserted:
 ## Network scanner:
