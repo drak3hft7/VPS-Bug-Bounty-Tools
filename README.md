@@ -36,4 +36,25 @@ Script that automates the installation of the main tools used for web applicatio
 - [Wpscan](https://github.com/wpscanteam/wpscan)
 - [Droopescan](https://github.com/droope/droopescan)
 
+## Vuln SQL:
+
+- [SQLmap](https://sqlmap.org/)
+- [NoSQLmap](https://github.com/codingo/NoSQLMap.git)
+
+## Enumeration Javascript:
+
+- [LinkFinder](https://github.com/GerbenJavado/LinkFinder.git)
+- [SecretFinder](https://github.com/m4ll0k/SecretFinder.git)
+- [JSParser](https://github.com/nahamsec/JSParser.git)
+
+## Visual Recon:
+
+- [Aquatone](https://github.com/michenriksen/aquatone/releases/download/v1.7.0/aquatone_linux_amd64_1.7.0.zip)
+
+
+## Useful Tools:
+
+- [Anew](github.com/tomnomnom/anew)
+
+
 
