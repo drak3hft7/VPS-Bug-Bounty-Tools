@@ -225,6 +225,12 @@ git clone https://github.com/s0md3v/XSStrike > /dev/null 2>&1 && cd XSStrike && 
 cd ~/tools/
 echo -e "\e[32mDone! XSStrike installed."; echo "";
 sleep 1.5
+#XSS-Loader
+echo -e "\e[93m\e[1m----> Installing XSS-Loader";
+git clone https://github.com/capture0x/XSS-LOADER/ > /dev/null 2>&1 && cd XSS-LOADER && pip3 install -r requirements.txt > /dev/null 2>&1;
+cd ~/tools/
+echo -e "\e[32mDone! XSS-Loader installed."; echo "";
+sleep 1.5
 
 #---------Vuln SSRF
 #SSRFmap
