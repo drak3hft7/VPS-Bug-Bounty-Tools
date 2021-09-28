@@ -88,7 +88,7 @@ sudo ./Tools-BugBounty-installer.sh
 - [Httpx](https://github.com/projectdiscovery/httpx/)
 - [Arjun](https://github.com/s0md3v/Arjun)
 
-## Update:
-- 28 Sept 2021: Inserted into the script the XSS-Loader tool.
+# Update:
+- 28 September 2021: Inserted into the script the XSS-Loader tool.
 
 
