@@ -66,6 +66,7 @@ sudo ./Tools-BugBounty-installer.sh
 ## Vuln XSS:
 
 - [XSStrike](https://github.com/s0md3v/XSStrike)
+- [XSS-Loader](https://github.com/capture0x/XSS-LOADER/)
 
 ## Vuln SSRF:
 
@@ -86,5 +87,8 @@ sudo ./Tools-BugBounty-installer.sh
 - [Httprobe](https://github.com/tomnomnom/httprobe)
 - [Httpx](https://github.com/projectdiscovery/httpx/)
 - [Arjun](https://github.com/s0md3v/Arjun)
+
+## Update:
+- 28 Sept 2021: Inserted into the script the XSS-Loader tool.
 
 
