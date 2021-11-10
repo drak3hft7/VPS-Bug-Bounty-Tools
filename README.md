@@ -86,9 +86,11 @@ sudo ./Tools-BugBounty-installer.sh
 - [Anew](https://github.com/tomnomnom/anew)
 - [Httprobe](https://github.com/tomnomnom/httprobe)
 - [Httpx](https://github.com/projectdiscovery/httpx/)
+- [Waybackurls](https://github.com/tomnomnom/waybackurls)
 - [Arjun](https://github.com/s0md3v/Arjun)
 
 # Update:
 - 28 September 2021: Inserted into the script the XSS-Loader tool.
+- 10 November 2021: Inserted into the script the waybackurls tool.
 
 
