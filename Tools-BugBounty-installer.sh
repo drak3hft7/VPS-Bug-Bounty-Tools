@@ -280,6 +280,12 @@ go get -v github.com/projectdiscovery/httpx/cmd/httpx > /dev/null 2>&1 && ln -s 
 cd ~/tools/
 echo -e "\e[32mDone! Httpx installed."; echo "";
 sleep 1.5
+#waybackurls
+echo -e "\e[93m\e[1m----> Installing waybackurls";
+go get github.com/tomnomnom/waybackurls > /dev/null 2>&1 && ln -s ~/go/bin/waybackurls /usr/local/bin/;
+cd ~/tools/
+echo -e "\e[32mDone! Waybackurls installed."; echo "";
+sleep 1.5
 #Arjun
 echo -e "\e[93m\e[1m----> Installing arjun";
 pip3 install arjun > /dev/null 2>&1;
