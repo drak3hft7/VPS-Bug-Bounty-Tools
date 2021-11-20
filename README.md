@@ -3,7 +3,7 @@
 Script that automates the installation of the main tools used for web application penetration testing and Bug Bounty.
 
 ## Usage:
-```
+```bash
 cd /tmp && git clone https://github.com/drak3hft7/VPS-Bug-Bounty-Tools
 sudo ./Tools-BugBounty-installer.sh
 ```
