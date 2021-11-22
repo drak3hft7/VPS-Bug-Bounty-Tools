@@ -88,9 +88,11 @@ sudo ./Tools-BugBounty-installer.sh
 - [Httpx](https://github.com/projectdiscovery/httpx/)
 - [Waybackurls](https://github.com/tomnomnom/waybackurls)
 - [Arjun](https://github.com/s0md3v/Arjun)
+- [Gau](https://github.com/lc/gau)
 
 # Update:
 - 28 September 2021: Inserted into the script the XSS-Loader tool.
 - 10 November 2021: Inserted into the script the waybackurls tool.
+- 22 November 2021: Inserted into the script the gau tool.
 
 
