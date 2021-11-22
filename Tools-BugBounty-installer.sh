@@ -291,5 +291,11 @@ echo -e "\e[93m\e[1m----> Installing arjun";
 pip3 install arjun > /dev/null 2>&1;
 echo -e "\e[32mDone! Arjun installed."; echo "";
 sleep 1.5
+#Gau
+echo -e "\e[93m\e[1m----> Installing gau";
+go install github.com/lc/gau/v2/cmd/gau@latest > /dev/null 2>&1 && ln -s ~/go/bin/gau /usr/local/bin/;
+cd ~/tools/
+echo -e "\e[32mDone! Gau installed."; echo "";
+sleep 1.5
 
 echo -e "\e[92mDone! Operazione Completata\e[0m\e[39m"; echo "";
