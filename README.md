@@ -27,7 +27,6 @@ sudo ./Tools-BugBounty-installer.sh
 - [Crtndstry](https://github.com/nahamsec/crtndstry.git)
 - [Assetfinder](https://github.com/tomnomnom/assetfinder)
 - [Dnsx](https://github.com/projectdiscovery/dnsx)
-- [Assetfinder](https://github.com/tomnomnom/assetfinder)
 - [Dnsgen](https://github.com/ProjectAnte/dnsgen)
 
 ## Web Fuzzer:
