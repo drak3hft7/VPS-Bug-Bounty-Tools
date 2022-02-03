@@ -29,6 +29,10 @@ sudo ./Tools-BugBounty-installer.sh
 - [Dnsx](https://github.com/projectdiscovery/dnsx)
 - [Dnsgen](https://github.com/ProjectAnte/dnsgen)
 
+## Subdomain Takeovers:
+
+- [SubOver](https://github.com/Ice3man543/SubOver)
+
 ## Web Fuzzer:
 
 - [Dirsearch](https://github.com/maurosoria/dirsearch)
@@ -83,6 +87,8 @@ sudo ./Tools-BugBounty-installer.sh
 ## Useful Tools:
 
 - [Anew](https://github.com/tomnomnom/anew)
+- [Unew](https://github.com/dwisiswant0/unew)
+- [Gf](https://github.com/tomnomnom/gf)
 - [Httprobe](https://github.com/tomnomnom/httprobe)
 - [Httpx](https://github.com/projectdiscovery/httpx/)
 - [Waybackurls](https://github.com/tomnomnom/waybackurls)
@@ -93,5 +99,6 @@ sudo ./Tools-BugBounty-installer.sh
 - 28 September 2021: Inserted into the script the XSS-Loader tool.
 - 10 November 2021: Inserted into the script the waybackurls tool.
 - 22 November 2021: Inserted into the script the gau tool.
+- 03 February 2022: Inserted into the script the unew,gf and SubOver tools.
 
 
