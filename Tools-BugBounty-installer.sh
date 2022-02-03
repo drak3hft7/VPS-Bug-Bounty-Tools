@@ -268,6 +268,16 @@ echo -e "\e[93m\e[1m----> Installing Anew";
 go get -u github.com/tomnomnom/anew > /dev/null 2>&1 && ln -s ~/go/bin/anew /usr/local/bin/;
 echo -e "\e[32mDone! Dnsgen installed."; echo "";
 sleep 1.5
+#unew
+echo -e "\e[93m\e[1m----> Installing Unew";
+go get -u github.com/dwisiswant0/unew > /dev/null 2>&1 && ln -s ~/go/bin/unew /usr/local/bin/;
+echo -e "\e[32mDone! Dnsgen installed."; echo "";
+sleep 1.5
+#gf
+echo -e "\e[93m\e[1m----> Installing gf";
+go get -u github.com/tomnomnom/gf > /dev/null 2>&1 && ln -s ~/go/bin/gf /usr/local/bin/;
+echo -e "\e[32mDone! Dnsgen installed."; echo "";
+sleep 1.5
 #Http Probe
 echo -e "\e[93m\e[1m----> Installing httprobe";
 go get -u github.com/tomnomnom/httprobe
