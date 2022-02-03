@@ -121,6 +121,13 @@ pip3 install dnsgen > /dev/null 2>&1;
 echo -e "\e[32mDone! Dnsgen installed."; echo "";
 sleep 1.5
 
+#---------Install subdomain takeovers
+#SubOver
+echo -e "\e[93m\e[1m----> Installing SubOver";
+go get -v github.com/Ice3man543/SubOver > /dev/null 2>&1 && ln -s ~/go/bin/subover /usr/bin/;
+echo -e "\e[32mDone! SubOver installed."; echo "";
+sleep 1.5
+
 #---------Install Fuzzing Tools
 #Dirsearch
 echo -e "\e[93m\e[1m----> Installing dirsearch";
