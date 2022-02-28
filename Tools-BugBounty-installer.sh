@@ -283,7 +283,7 @@ sleep 1.5
 #gf
 echo -e "\e[93m\e[1m----> Installing gf";
 go get -u github.com/tomnomnom/gf > /dev/null 2>&1 && ln -s ~/go/bin/gf /usr/local/bin/;
-echo -e "\e[32mDone! Dnsgen installed."; echo "";
+echo -e "\e[32mDone! Gf installed."; echo "";
 sleep 1.5
 #Http Probe
 echo -e "\e[93m\e[1m----> Installing httprobe";
