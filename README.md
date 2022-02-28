@@ -5,6 +5,7 @@ Script that automates the installation of the main tools used for web applicatio
 ## Usage:
 ```bash
 cd /tmp && git clone https://github.com/drak3hft7/VPS-Bug-Bounty-Tools
+cd VPS-Bug-Bounty-Tools
 sudo ./Tools-BugBounty-installer.sh
 ```
 ## Example during installation:
