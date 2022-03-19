@@ -71,6 +71,7 @@ sudo ./Tools-BugBounty-installer.sh
 
 - [XSStrike](https://github.com/s0md3v/XSStrike)
 - [XSS-Loader](https://github.com/capture0x/XSS-LOADER/)
+- [Freq](https://github.com/takshal/freq)
 
 ## Vuln SSRF:
 
@@ -95,11 +96,14 @@ sudo ./Tools-BugBounty-installer.sh
 - [Waybackurls](https://github.com/tomnomnom/waybackurls)
 - [Arjun](https://github.com/s0md3v/Arjun)
 - [Gau](https://github.com/lc/gau)
+- [Uro](https://github.com/s0md3v/uro)
+- [Qsreplace](https://github.com/tomnomnom/qsreplace)
 
 # Update:
 - 28 September 2021: Inserted into the script the XSS-Loader tool.
 - 10 November 2021: Inserted into the script the waybackurls tool.
 - 22 November 2021: Inserted into the script the gau tool.
 - 03 February 2022: Inserted into the script the unew,gf and SubOver tools.
+- 19 March 2022: Inserted into the script the freq,qsreplace and uro tools.
 
 
