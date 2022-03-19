@@ -314,5 +314,17 @@ go install github.com/lc/gau/v2/cmd/gau@latest > /dev/null 2>&1 && ln -s ~/go/bi
 cd ~/tools/
 echo -e "\e[32mDone! Gau installed."; echo "";
 sleep 1.5
+#Uro
+echo -e "\e[93m\e[1m----> Installing uro";
+pip3 install uro > /dev/null;
+cd ~/tools/
+echo -e "\e[32mDone! Uro installed."; echo "";
+sleep 1.5
+#QSreplace
+echo -e "\e[93m\e[1m----> Installing qsreplace";
+go get -v github.com/tomnomnom/qsreplace > /dev/null 2>&1 && ln -s ~/go/bin/qsreplace /usr/local/bin/;
+cd ~/tools/
+echo -e "\e[32mDone! Qsreplace installed."; echo "";
+sleep 1.5
 
 echo -e "\e[92mDone! Operazione Completata\e[0m\e[39m"; echo "";
