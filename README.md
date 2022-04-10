@@ -52,6 +52,7 @@ sudo ./Tools-BugBounty-installer.sh
 
 - [SQLmap](https://sqlmap.org/)
 - [NoSQLmap](https://github.com/codingo/NoSQLMap.git)
+- [Jeeves](https://github.com/ferreiraklet/Jeeves)
 
 ## Enumeration Javascript:
 
