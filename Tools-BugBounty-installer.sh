@@ -181,6 +181,13 @@ python setup.py install > /dev/null 2>&1;
 cd ~/tools/
 echo -e "\e[32mDone! NoSqlmap installed."; echo "";
 sleep 1.5
+#Jeeves
+echo -e "\e[93m\e[1m----> Installing Jeeves";
+go get -u github.com/ferreiraklet/Jeeves > /dev/null 2>&1 && ln -s ~/go/bin/jeeves /usr/local/bin/;
+cd ~/tools/
+echo -e "\e[32mDone! Jeeves installed."; echo "";
+sleep 1.5
+
 
 #---------Enumeration JavaScript
 #LinkFinder
