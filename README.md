@@ -107,6 +107,6 @@ sudo ./Tools-BugBounty-installer.sh
 - 22 November 2021: Inserted into the script the gau tool.
 - 03 February 2022: Inserted into the script the unew,gf and SubOver tools.
 - 19 March 2022: Inserted into the script the freq,qsreplace and uro tools.
-- 10 April 2022: Inserted into the script the hakrawler.
+- 10 April 2022: Inserted into the script the hakrawler and Jeeves.
 
 
