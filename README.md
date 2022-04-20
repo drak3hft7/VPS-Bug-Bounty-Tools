@@ -16,6 +16,7 @@ sudo ./Tools-BugBounty-installer.sh
 
 - [Nmap](https://nmap.org/)
 - [Masscan](https://github.com/robertdavidgraham/masscan)
+- [Naabu](https://github.com/projectdiscovery/naabu)
 
 ## Subdomain Enumeration and DNS Resolver:
 
