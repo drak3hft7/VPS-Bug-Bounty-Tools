@@ -59,6 +59,11 @@ echo -e "\e[93m\e[1m----> Installing Masscan";
 git clone https://github.com/robertdavidgraham/masscan > /dev/null 2>&1 && cd masscan && make > /dev/null 2>&1 && make install > /dev/null 2>&1 && mv bin/masscan /usr/local/bin/;
 echo -e "\e[32mDone! Masscan installed."; echo "";
 sleep 1.5
+#Naabu
+echo -e "\e[93m\e[1m----> Installing Naabu";
+go get -v github.com/projectdiscovery/naabu/v2/cmd/naabu > /dev/null 2>&1 && ln -s ~/go/bin/naabu /usr/local/bin/;
+echo -e "\e[32mDone! Naabu installed."; echo "";
+sleep 1.5
 
 #---------Install subdomain enumeration and DNS Resolver
 #dnsutils
