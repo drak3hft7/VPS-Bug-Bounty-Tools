@@ -311,7 +311,7 @@ echo -e "\e[32mDone! Gf installed."; echo "";
 sleep 1.5
 #Http Probe
 echo -e "\e[93m\e[1m----> Installing httprobe";
-go get -u github.com/tomnomnom/httprobe
+go get github.com/tomnomnom/httprobe > /dev/null 2>&1 && ln -s ~/go/bin/httprobe /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Httprobe installed."; echo "";
 sleep 1.5
