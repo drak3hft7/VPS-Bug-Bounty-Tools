@@ -103,7 +103,7 @@ sudo ./Tools-BugBounty-installer.sh
 - [Uro](https://github.com/s0md3v/uro)
 - [Qsreplace](https://github.com/tomnomnom/qsreplace)
 
-# Update:
+# Update - Time Line:
 - 28 September 2021: Inserted into the script the XSS-Loader tool.
 - 10 November 2021: Inserted into the script the waybackurls tool.
 - 22 November 2021: Inserted into the script the gau tool.
@@ -111,5 +111,6 @@ sudo ./Tools-BugBounty-installer.sh
 - 19 March 2022: Inserted into the script the freq,qsreplace and uro tools.
 - 10 April 2022: Inserted into the script the hakrawler and Jeeves.
 - 20 April 2022: Inserted into the script the naabu tool.
+- 15 November 2022: Inserted into the script the katana tool.
 
 
