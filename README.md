@@ -69,6 +69,7 @@ sudo ./Tools-BugBounty-installer.sh
 
 - [GoSpider](https://github.com/jaeles-project/gospider)
 - [Hakrawler](https://github.com/hakluke/hakrawler)
+- [Katana](https://github.com/projectdiscovery/katana)
 
 ## Vuln XSS:
 
