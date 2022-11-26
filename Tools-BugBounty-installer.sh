@@ -268,6 +268,18 @@ go get -v github.com/takshal/freq > /dev/null 2>&1 && ln -s ~/go/bin/freq /usr/l
 cd ~/tools/
 echo -e "\e[32mDone! Freq installed."; echo "";
 sleep 1.5
+#Gxss
+echo -e "\e[93m\e[1m----> Installing Gxss";
+go install github.com/KathanP19/Gxss@latest > /dev/null 2>&1 && ln -s ~/go/bin/Gxss /usr/local/bin/;
+cd ~/tools/
+echo -e "\e[32mDone! Gxss installed."; echo "";
+sleep 1.5
+#Dalfox
+echo -e "\e[93m\e[1m----> Installing Dalfox";
+go install github.com/hahwul/dalfox/v2@latest > /dev/null 2>&1 && ln -s ~/go/bin/dalfox /usr/local/bin/;
+cd ~/tools/
+echo -e "\e[32mDone! Dalfox installed."; echo "";
+sleep 1.5
 
 #---------Vuln SSRF
 #SSRFmap
