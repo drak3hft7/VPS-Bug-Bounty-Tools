@@ -76,6 +76,8 @@ sudo ./Tools-BugBounty-installer.sh
 - [XSStrike](https://github.com/s0md3v/XSStrike)
 - [XSS-Loader](https://github.com/capture0x/XSS-LOADER/)
 - [Freq](https://github.com/takshal/freq)
+- [Gxss](https://github.com/KathanP19/Gxss)
+- [Dalfox](https://github.com/hahwul/dalfox)
 
 ## Vuln SSRF:
 
@@ -112,5 +114,6 @@ sudo ./Tools-BugBounty-installer.sh
 - 10 April 2022: Inserted into the script the hakrawler and Jeeves.
 - 20 April 2022: Inserted into the script the naabu tool.
 - 15 November 2022: Inserted into the script the katana tool.
+- 26 November 2022: Inserted into the script the Gxss and Dalfox tools
 
 
