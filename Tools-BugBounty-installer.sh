@@ -341,7 +341,7 @@ echo -e "\e[32mDone! Httpx installed."; echo "";
 sleep 1.5
 #waybackurls
 echo -e "\e[93m\e[1m----> Installing waybackurls";
-go get github.com/tomnomnom/waybackurls > /dev/null 2>&1 && ln -s ~/go/bin/waybackurls /usr/local/bin/;
+go install github.com/tomnomnom/waybackurls@latest > /dev/null 2>&1 && ln -s ~/go/bin/waybackurls /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Waybackurls installed."; echo "";
 sleep 1.5
