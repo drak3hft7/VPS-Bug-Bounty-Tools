@@ -314,7 +314,7 @@ sleep 1.5
 #---------Useful Tools
 #anew
 echo -e "\e[93m\e[1m----> Installing Anew";
-go get -u github.com/tomnomnom/anew > /dev/null 2>&1 && ln -s ~/go/bin/anew /usr/local/bin/;
+go install -v github.com/tomnomnom/anew@latest > /dev/null 2>&1 && ln -s ~/go/bin/anew /usr/local/bin/;
 echo -e "\e[32mDone! Dnsgen installed."; echo "";
 sleep 1.5
 #unew
