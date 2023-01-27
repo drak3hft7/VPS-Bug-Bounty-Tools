@@ -238,7 +238,7 @@ echo -e "\e[32mDone! Gospider installed."; echo "";
 sleep 1.5
 #Hakrawler
 echo -e "\e[93m\e[1m----> Installing Hakrawler";
-go get -u github.com/hakluke/hakrawler > /dev/null 2>&1 && ln -s ~/go/bin/hakrawler /usr/local/bin/;
+go install github.com/hakluke/hakrawler@latest > /dev/null 2>&1 && ln -s ~/go/bin/hakrawler /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Hakrawler installed."; echo "";
 sleep 1.5
