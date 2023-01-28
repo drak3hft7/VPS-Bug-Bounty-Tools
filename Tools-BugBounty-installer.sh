@@ -232,7 +232,7 @@ sleep 1.5
 #---------Crawling Web
 #Gospider
 echo -e "\e[93m\e[1m----> Installing Gospider";
-go get -u github.com/jaeles-project/gospider > /dev/null 2>&1 && ln -s ~/go/bin/gospider /usr/local/bin/;
+go install github.com/jaeles-project/gospider@latest > /dev/null 2>&1 && ln -s ~/go/bin/gospider /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Gospider installed."; echo "";
 sleep 1.5
