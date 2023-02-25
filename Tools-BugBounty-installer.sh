@@ -335,7 +335,7 @@ echo -e "\e[32mDone! Httprobe installed."; echo "";
 sleep 1.5
 #httpx
 echo -e "\e[93m\e[1m----> Installing httpx";
-go get -v github.com/projectdiscovery/httpx/cmd/httpx > /dev/null 2>&1 && ln -s ~/go/bin/httpx /usr/local/bin/;
+go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest > /dev/null 2>&1 && ln -s ~/go/bin/httpx /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Httpx installed."; echo "";
 sleep 1.5
