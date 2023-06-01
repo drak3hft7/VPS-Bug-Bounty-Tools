@@ -264,7 +264,7 @@ echo -e "\e[32mDone! XSS-Loader installed."; echo "";
 sleep 1.5
 #Freq
 echo -e "\e[93m\e[1m----> Installing Freq";
-go get -v github.com/takshal/freq > /dev/null 2>&1 && ln -s ~/go/bin/freq /usr/local/bin/;
+go install github.com/takshal/freq@latest > /dev/null 2>&1 && ln -s ~/go/bin/freq /usr/local/bin/;
 cd ~/tools/
 echo -e "\e[32mDone! Freq installed."; echo "";
 sleep 1.5
