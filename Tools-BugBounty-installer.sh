@@ -33,7 +33,7 @@ sleep 1.5
 
 #---------Install Golang
 echo -e "\e[93m\e[1m----> Golang environment installation in progress ...";
-cd /tmp && wget https://go.dev/dl/go1.19.5.linux-amd64.tar.gz > /dev/null 2>&1 && tar xvf go1.19.5.linux-amd64.tar.gz > /dev/null 2>&1;
+cd /tmp && wget https://go.dev/dl/go1.21.0.linux-amd64.tar.gz > /dev/null 2>&1 && tar xvf go1.21.0.linux-amd64.tar.gz > /dev/null 2>&1;
 mv go /usr/local
 export GOROOT=/usr/local/go && export GOPATH=$HOME/go && export PATH=$GOPATH/bin:$GOROOT/bin:$PATH;
 echo 'export GOROOT=/usr/local/go' >> ~/.bash_profile && echo 'export GOPATH=$HOME/go'	>> ~/.bash_profile	&& echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.bash_profile;
