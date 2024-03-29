@@ -356,6 +356,12 @@ go install github.com/lc/gau/v2/cmd/gau@latest > /dev/null 2>&1 && ln -s ~/go/bi
 cd ~/tools/
 echo -e "\e[32mDone! Gau installed."; echo "";
 sleep 1.5
+#Gauplus
+echo -e "\e[93m\e[1m----> Installing gauplus";
+go install github.com/bp0lr/gauplus@latest  > /dev/null 2>&1 && ln -s ~/go/bin/gauplus /usr/local/bin/;
+cd ~/tools/
+echo -e "\e[32mDone! Gauplus installed."; echo "";
+sleep 1.5
 #Uro
 echo -e "\e[93m\e[1m----> Installing uro";
 pip3 install uro > /dev/null;
