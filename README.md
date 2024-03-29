@@ -102,6 +102,7 @@ sudo ./Tools-BugBounty-installer.sh
 - [Waybackurls](https://github.com/tomnomnom/waybackurls)
 - [Arjun](https://github.com/s0md3v/Arjun)
 - [Gau](https://github.com/lc/gau)
+- [GauPlus](https://github.com/bp0lr/gauplus)
 - [Uro](https://github.com/s0md3v/uro)
 - [Qsreplace](https://github.com/tomnomnom/qsreplace)
 - [SocialHunter](https://github.com/utkusen/socialhunter)
@@ -117,5 +118,6 @@ sudo ./Tools-BugBounty-installer.sh
 - 15 November 2022: Inserted into the script the katana tool.
 - 26 November 2022: Inserted into the script the Gxss and Dalfox tools
 - 19 January 2023: Inserted into the script the socialhunter tool.
+- 29 March 2024: Inserted into the script the gauplus tool.
 
 
